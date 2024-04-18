@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  background-color: #0f172a;
+  height: 100vh;
+  background-size: cover;
+}
+
+.input {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.input-container {
+  display: flex;
+
+  align-items: center;
+}
+
+.search {
+  cursor: pointer;
+  height: 30px;
+  color: gray;
+  border-radius: 5px;
+}
